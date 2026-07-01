@@ -1,0 +1,7 @@
+# Vercel (linking local, no va al repo)
+.vercel
+
+# Dependencias / SO
+node_modules
+.DS_Store
+Thumbs.db
