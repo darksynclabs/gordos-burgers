@@ -33,15 +33,21 @@ const CONFIG = {
 
 Doble clic en `index.html` — se abre en el navegador. (Para probar el botón *Compartir/Copiar* conviene servirla; ver abajo.)
 
-## 🚀 Publicarla gratis
+## 🚀 Publicación (ya configurada)
 
-Cualquiera de estas sirve (arrastrás la carpeta y listo):
+- **En vivo:** https://gordos-burgers.vercel.app
+- **Repo:** https://github.com/darksynclabs/gordos-burgers
+- **Auto-deploy:** conectado. Cada `git push` a la rama `main` **publica solo** en Vercel.
 
-- **Netlify Drop** → https://app.netlify.com/drop
-- **Vercel** → https://vercel.com (importás la carpeta)
-- **GitHub Pages** → subís el repo y activás Pages
+### Cómo actualizar la página en vivo
+```bash
+git add -A
+git commit -m "tu cambio"
+git push
+```
+En ~30 segundos queda publicado. (Sin GitHub, alternativa manual: `npx vercel --prod`.)
 
-Después podés conectar tu dominio (ej. `gs.burger`) desde el panel del hosting.
+Después podés conectar tu dominio (ej. `gs.burger`) desde el panel de Vercel → Settings → Domains.
 
 ## 🎨 Cambiar colores
 
